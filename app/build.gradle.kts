@@ -25,6 +25,7 @@ dependencies {
     implementation(libs.guava)
 
     implementation("org.apache.commons:commons-lang3:3.20.0")
+    implementation(files("lib/libmy_library.jar"))
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
